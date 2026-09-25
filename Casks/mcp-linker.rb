@@ -1,14 +1,14 @@
 cask "mcp-linker" do
-  version "2.2.3"
+  version "2.2.4"
 
   on_intel do
-    sha256 "1f6409a6e76e7c4f2f5c11351851e9523977c02d0a39afb30e10913f19753f2c"
+    sha256 "5055b967c77f8256b493ff398d75b01a9d8b64d14fe6179d0fe004f2d907452a"
 
     url "https://github.com/milisp/mcp-linker/releases/download/v#{version}/MCPLinker_#{version}_x64.dmg"
   end
 
   on_arm do
-    sha256 "b1218844cf766902823330b4a3759105b02c1c7eed25cbd7ce66e7b0b0b3b8f3"
+    sha256 "05b041bf433562a2ec99348a6552865bba7a842777da92da2ede24a0f08d0f90"
 
     url "https://github.com/milisp/mcp-linker/releases/download/v#{version}/MCPLinker_#{version}_aarch64.dmg"
   end
